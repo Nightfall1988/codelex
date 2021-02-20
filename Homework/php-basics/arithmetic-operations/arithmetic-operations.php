@@ -10,7 +10,7 @@ function CheckIf15(int $val1, int $val2): bool {
 
 }
 
-//echo CheckIf15(9,6);
+echo CheckIf15(9,6);
 
 # Exercise #2
 
@@ -24,7 +24,7 @@ function CheckOddEven(int $number): string {
     return $result . '. Bye!';
 
 }
-//echo CheckOddEven(6);
+echo CheckOddEven(6);
 
 # Exercise #3 
 
@@ -39,7 +39,7 @@ function CountNumbers(int $lower_bound, int $higher_bound): int {
     return $counter;
 }
 
-//echo CountNumbers($lower_bound, $upper_bound);
+echo CountNumbers($lower_bound, $upper_bound);
 
 function AverageOfNumbers(int $lower_bound,  int $higher_bound): float{
     $divider = ($higher_bound - $lower_bound) + 1;
@@ -48,7 +48,7 @@ function AverageOfNumbers(int $lower_bound,  int $higher_bound): float{
     return $average;
 }
 
-//echo AverageOfNumbers($lower_bound, $upper_bound);
+echo AverageOfNumbers($lower_bound, $upper_bound);
 
 # Exercise 4
 
@@ -60,7 +60,7 @@ function Factorial(int $number): int {
     return "Factorial of $number is $factorial";
 }
 
-//echo Factorial(4);
+echo Factorial(4);
 
 # Exercise 5
 
@@ -78,7 +78,7 @@ function GuessNumber() {
     }
 }
 
-//echo GuessNumber();
+echo GuessNumber();
 
 # Exercise 6
 
@@ -116,7 +116,7 @@ function CozaLozaWoza() {
     } 
 }
 
-//echo CozaLozaWoza();
+echo CozaLozaWoza();
 
 # Exercise #7
 
@@ -127,7 +127,7 @@ function FindPosition($time) {
     $pos = 0.5 * $a * $time ** 2 + $init_v * $time + $init_x;
     return $pos . 'm';
 }
-//echo FindPosition(10);
+echo FindPosition(10);
 
 # Exercise #8
 
@@ -149,13 +149,13 @@ function SalaryCalculator($base_pay, $hours_worked) {
     }
 }
 
-//echo SalaryCalculator(7.50,35) . "\n";
-//echo SalaryCalculator(8.20,47) . "\n";
-//echo SalaryCalculator(10.00,73) . "\n";
+echo SalaryCalculator(7.50,35) . "\n";
+echo SalaryCalculator(8.20,47) . "\n";
+echo SalaryCalculator(10.00,73) . "\n";
 
 # Exercise #9
 
-// Accepts  BMI_Calculator(meters, kilograms)
+Accepts  BMI_Calculator(meters, kilograms)
 
 function BMI_Calculator($height, $weight) {
     $height = $height * 39.37;
@@ -172,7 +172,7 @@ function BMI_Calculator($height, $weight) {
     }
 }
 
-//echo BMI_Calculator(1.7, 67);
+echo BMI_Calculator(1.7, 67);
 
 class Geometry {
 
