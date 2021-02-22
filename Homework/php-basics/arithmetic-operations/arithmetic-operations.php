@@ -155,7 +155,7 @@ echo SalaryCalculator(10.00,73) . "\n";
 
 # Exercise #9
 
-Accepts  BMI_Calculator(meters, kilograms)
+// Accepts  BMI_Calculator(meters, kilograms)
 
 function BMI_Calculator($height, $weight) {
     $height = $height * 39.37;
