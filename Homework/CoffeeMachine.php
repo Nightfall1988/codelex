@@ -47,8 +47,6 @@ function CoffeeMachine($wallet, $drinkSelection) {
     }
 }
 
-
-
 function GetSelection($drinkSelection) {
 
     $choice = readline("Latte, Euro: 2.70 [1] " . "Capuccino, Euro: 3.50 [2] " . "Americano, Euro: 1.30 [3]");
@@ -57,7 +55,6 @@ function GetSelection($drinkSelection) {
         echo "Sorry, this drink is not available" . "\n";
         $choice = readline("Latte, Euro: 2.70 [1] " . "Capuccino, Euro: 3.50 [2] " . "Americano, Euro: 1.30 [3]");
     }
-
     return $drinkSelection["$choice"];
 }
 
