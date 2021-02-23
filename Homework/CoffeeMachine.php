@@ -45,6 +45,8 @@ function CoffeeMachine($wallet, $drinkSelection) {
     } else {
         return 'Not enough money';
     }
+    
+    return "Enjoy!";
 }
 
 function GetSelection($drinkSelection) {
