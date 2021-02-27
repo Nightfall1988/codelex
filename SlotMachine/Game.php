@@ -10,7 +10,7 @@ class Game {
     private $bet;
 
     public function SetData() {
-        $this->elements = ['A', 'B', 'C', 'A', 'E', 'F'];
+        $this->elements = ['A', 'B', 'C', 'D', 'E', 'F'];
 
         $this->wallet = readline("Enter your money: ");
         
