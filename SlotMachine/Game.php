@@ -56,7 +56,6 @@ class Game {
         echo "You unlocked 5 free Games!" . "\n";
 
         for ($i=0; $i<5; $i++) {
-            $this->wallet = $this->wallet + $this->bet;
             $this->PlaySlot($this->elements, $this->bet);
             echo "\n";
         }
