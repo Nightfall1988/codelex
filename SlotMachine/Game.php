@@ -35,6 +35,8 @@ class Game {
             if ($answer == 'n') {
                 echo "You have $this->wallet left";
                 die();
+            } elseif ($answer != 'y' && $answer != 'n') {
+                $answer = readline("Sorry, I did not understand this input. Play again? y/n: ");
             }
         }
         return $this->wallet;
