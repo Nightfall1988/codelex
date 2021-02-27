@@ -57,7 +57,7 @@ class SlotMachine {
         }
     }
 
-    public function game_result($result) {
+    public function game_result($result): int {
         if ($result == true) {
             $payout_quotent = $this->bet / 10;
             $payout = $this->bet * $payout_quotent;
@@ -67,7 +67,7 @@ class SlotMachine {
         }
     }
 
-    public function get_wild() {
+    public function get_wild(): string {
         return $this->wild;
     }
 }
