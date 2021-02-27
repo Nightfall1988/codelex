@@ -19,7 +19,7 @@ class Game {
 
     public function StartGame() {
         while (!is_numeric($this->bet) || !($this->bet % 10 == 0)) {
-            $bet = readline('Sorry, this is not a valid bet. Enter your bet: ');
+            $this->bet = readline('Sorry, this is not a valid bet. Enter your bet: ');
         }
     
         while (($this->bet <= $this->wallet)){
