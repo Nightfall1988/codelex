@@ -9,7 +9,7 @@ class Game {
 
     private $bet;
 
-    public function SetData() {
+    public function SetData(): void {
         $this->elements = ['A', 'B', 'C', 'D', 'E', 'F'];
 
         $this->wallet = readline("Enter your money: ");
@@ -17,7 +17,7 @@ class Game {
         $this->bet = readline('Enter your bet: ');
     }
 
-    public function StartGame() {
+    public function StartGame(): int {
         while (!is_numeric($this->bet) || !($this->bet % 10 == 0)) {
             $this->bet = readline('Sorry, this is not a valid bet. Enter your bet: ');
         }
