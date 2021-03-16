@@ -1,0 +1,25 @@
+{
+    "Rose" : {
+        "name": "Rose",
+        "price": "15",
+        "amount": "130"
+    },
+
+    "Daisy" : {
+        "name": "Daisy",
+        "price": "25",
+        "amount": "100"
+    },
+
+    "Tulip" : {
+        "name": "Tulip",
+        "price": "25",
+        "amount": "100"
+    },
+
+    "Lilly" : {
+        "name": "Lilly",
+        "price": "40",
+        "amount": "150"
+    } 
+}
