@@ -1,0 +1,44 @@
+body {
+    background-color: gainsboro;
+}
+
+table, td {
+    border: solid 1px;
+}
+
+#table {
+    display: flex;
+    justify-content: center;
+}
+
+#head {
+    display: flex;
+    justify-content: center;
+}
+
+#buySharesButton {
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#tableButton {
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#currentTableButton {
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: green;
+}
+
+.currentTableButtonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
